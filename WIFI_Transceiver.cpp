@@ -10,9 +10,9 @@ String getContentType(String filename); // convert the file extension to the MIM
 bool handleFileRead(String path);       // send the right file to the client (if it exists)
 
 void WIFI_initialize() {
-  Serial.begin(115200);         // Start the Serial communication to send messages to the computer
+  // Initialize the WIFI Transceiver:
+  Serial.print("Initializing WIFI Transceiver...");
   delay(10);
-  Serial.println('\n');
 
   wifiMulti.addAP("ssid_from_AP_1", "your_password_for_AP_1");   // add Wi-Fi networks you want to connect to
   wifiMulti.addAP("ssid_from_AP_2", "your_password_for_AP_2");
@@ -44,7 +44,13 @@ void WIFI_initialize() {
   });
 
   server.begin();                           // Actually start the server
-  Serial.println("HTTP server started");
+  Serial.println("HTTP server started.");
+  
+  if (SPIFFS.begin()) {
+    Serial.println("WIFI Transceiver initialized.");
+    while (1);
+  }
+  Serial.println("WIFI Transceiver failed, or not present.");
 }
 
 void WIFI_webserver(void) {

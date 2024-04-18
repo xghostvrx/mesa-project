@@ -6,6 +6,7 @@ unsigned long Time0 = 0; // A starting time reference, in millis
 void SD_initialize()  {
   // Initialize the SD card:
   Serial.print("Initializing SD card...");
+  delay(10);
   if (!SD.begin(4)) {
     Serial.println("Card failed, or not present.");
     while (1);

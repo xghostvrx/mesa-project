@@ -7,7 +7,7 @@
 #include <ESP8266WiFiMulti.h>
 #include <ESP8266mDNS.h>
 #include <ESP8266WebServer.h>
-//#include <FS.h>   // Include the SPIFFS library
+#include <FS.h>   // Include the SPIFFS library
 
 extern void WIFI_initialize();
 extern void WIFI_webserver(void);

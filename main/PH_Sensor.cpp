@@ -12,6 +12,9 @@ float pHValue,voltage;
 void PH_initialize() {
   // Initialize the LED pin as an output:
   pinMode(LED, OUTPUT);
+  Serial.print("Initializing PH Sensor...");
+  delay(10);
+  Serial.println("PH Sensor initialized.");
 }
 
 double avergearray(int* arr, int number){
