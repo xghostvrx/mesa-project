@@ -1,10 +1,10 @@
 # MESA Project (cost-effective hydroponic system)
 
-This project (engineered in 2019) was awarded an **[Little Chapel of All Nations Innovative Thought](https://littlechapel54.org/about-us) in Engineering Award**.
+**This project was awarded: a [Little Chapel of All Nations](https://littlechapel54.org/about-us) Innovative Thought in Engineering Award**.
 
 An Arizona [Mathematics, Engineering, Science Achievement (MESA)](https://azmesa.arizona.edu/) project presented at an [annual statewide competition](https://youtu.be/jeQCyl0h-tA?si=duDbrjTiarAOMQ2x&t=2602) aimed to design and engineer a cost-effective hydroponic system for self-sufficient living, utilizing an Arduino microcontroller. The system integrated various sensors and electronic switches to monitor and optimize resource utilization and minimize maintenance.
 
-Using an Arduino microcontroller along with other electronics enabled precise control over environmental factors, resulting in faster plant growth and higher yields. Designed to be affordable, this project used readily available components and an open-source source code with modifications, theoretically making it accessible to a wide range of users and communities, particularly in Arizona's desert climate. 
+The Arduino microcontroller along with other electronics enabled precise control over environmental factors, resulting in faster plant growth and higher yields. Designed to be affordable, this project used readily available components and an open-source source code with modifications, theoretically making it accessible to a wide range of users and communities, particularly in Arizona's desert climate. 
 
 ![Imgur](https://imgur.com/ggvMi6R.png)
 ![Imgur](https://imgur.com/II4g6Mx.png)
